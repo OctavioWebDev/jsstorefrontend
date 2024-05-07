@@ -15,20 +15,21 @@ export default function Search() {
     };
 
     return (
-        <div className="flex items-center space-x-2">
+        <div className="flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-2">
             <input
                 type="text"
                 value={query}
                 onChange={handleInputChange}
                 placeholder="Search..."
-                className="px-4 py-2 border rounded-lg focus:outline-none focus:border-cyan-300"
+                className="w-full md:w-auto px-3 py-2 border rounded-lg focus:outline-none focus:border-cyan-300"
             />
             <button
                 onClick={handleSearch}
-                className="bg-cyan-950 text-white px-4 py-2 rounded-lg hover:bg-cyan-700"
+                className="w-full md:w-auto bg-cyan-950 text-white px-4 py-2 rounded-lg hover:bg-cyan-700"
             >
                 Search
             </button>
         </div>
+
     );
 }

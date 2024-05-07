@@ -29,7 +29,7 @@ export default function Footer() {
     const position: [number, number] = [41.7537494, -83.5676985]; // Example position for the map (London)
 
     return (
-        <div className="bg-red-950 text-white p-4">
+        <div className="bg-red-950 text-white">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 border-4 border-cyan-950">
                 {/* Business Info */}
                 <div className='ml-8 py-5 space-y-3'>
@@ -73,11 +73,11 @@ export default function Footer() {
                     </div>
                 </div>
                 {/* Contact Form */}
-                <div className='py-5 mr-10'>
+                <div className='py-5 px-5'>
                     <ContactForm />
                 </div>
                 {/* Map */}
-                <div className='py-5 rounded mr-5'>
+                <div className='py-5 px-5 rounded'>
                     <MapContainer center={position} zoom={13} style={{ height: '425px', width: '100%' }} scrollWheelZoom={false}>
                         <TileLayer
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
