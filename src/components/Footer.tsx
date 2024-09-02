@@ -30,7 +30,7 @@ export default function Footer() {
 
     return (
         <div className="bg-red-950 text-white">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 border-4 border-cyan-950">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {/* Business Info */}
                 <div className='ml-8 py-5 space-y-3'>
                     <h2 className="font-semibold">Contact Us</h2>

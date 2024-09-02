@@ -28,7 +28,8 @@ export default function Testimonials() {
   }, []);
 
   return (
-    <div className="relative w-full h-[600px]"> {/* Adjust height as needed */}
+    
+    <div className="relative w-full h-[600px]">
       <Image
         src="/assets/images/Products_2048x.webp"
         alt="Products"
@@ -36,16 +37,13 @@ export default function Testimonials() {
         objectFit="cover"
         quality={100}
       />
-      <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center">
-        <h2 className="text-4xl text-white font-bold">Thousands of products to choose from</h2>
-        <div className="bg-red-950 border-t border-cyan-950 p-8 mt-8 bg-opacity-80 rounded-xl">
-          <h1 className="text-3xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-amber-50 to-sky-300">Reviews</h1>
+      <div className="absolute inset-0 bg-cyan-950 bg-opacity-50 flex flex-col justify-center items-center">
+        <h2 className="text-4xl text-white text-center font-bold">Thousands of products to choose from</h2>
           <div className="text-center mt-5 mb-10">
             <p className="text-lg italic text-white">{testimonialsData[index].quote}</p>
             <p className="text-sm mt-2 text-white">— {testimonialsData[index].author}</p>
           </div>
         </div>
       </div>
-    </div>
   );
 }
