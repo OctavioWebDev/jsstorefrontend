@@ -26,17 +26,17 @@ const DeckingTile: React.FC<DeckingTileProps> = ({ imageSrc, title, description 
 const DeckingSection: React.FC = () => {
   const deckingOptions: DeckingTileProps[] = [
     {
-      imageSrc: '/images/composite-boards.jpg',
+      imageSrc: '/assets/images/decking1.webp',
       title: 'Composite Boards',
       description: 'Durable and low-maintenance composite decking from Trex, Armadillo, and DuraLife.',
     },
     {
-      imageSrc: '/images/patio-pavers.jpg',
+      imageSrc: '/assets/images/decking2.webp',
       title: 'Patio Pavers',
       description: 'Create a stunning outdoor living space with our selection of patio pavers.',
     },
     {
-      imageSrc: '/images/decking-accessories.jpg',
+      imageSrc: '/assets/images/decking2.webp',
       title: 'Decking Accessories',
       description: 'Complete your deck with our range of accessories, including railings and lighting.',
     },

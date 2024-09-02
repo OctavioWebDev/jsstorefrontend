@@ -26,22 +26,22 @@ const ApplianceTile: React.FC<ApplianceTileProps> = ({ imageSrc, title, descript
 const AppliancesSection: React.FC = () => {
   const appliances: ApplianceTileProps[] = [
     {
-      imageSrc: '/images/washer-dryer.jpg',
+      imageSrc: '/assets/images/appliances1_480x480.webp',
       title: 'Washers & Dryers',
       description: 'High-efficiency washers and dryers from top brands like Samsung and Whirlpool.',
     },
     {
-      imageSrc: '/images/refrigerator.jpg',
+      imageSrc: '/assets/images/appliances2_480x480.webp',
       title: 'Refrigerators',
       description: 'Keep your food fresh with our selection of refrigerators from Frigidaire and Bosch.',
     },
     {
-      imageSrc: '/images/range-oven.jpg',
+      imageSrc: '/assets/images/appliances3.webp',
       title: 'Ranges & Ovens',
       description: 'Cook up a storm with our ranges and ovens from Electrolux and Samsung.',
     },
     {
-      imageSrc: '/images/dishwasher.jpg',
+      imageSrc: '/assets/images/appliances4.webp',
       title: 'Dishwashers',
       description: 'Make cleanup a breeze with dishwashers from Bosch and Whirlpool.',
     },

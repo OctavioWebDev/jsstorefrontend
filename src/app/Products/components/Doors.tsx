@@ -26,17 +26,17 @@ const DoorTile: React.FC<DoorTileProps> = ({ imageSrc, title, description }) => 
 const DoorsSection: React.FC = () => {
   const doorOptions: DoorTileProps[] = [
     {
-      imageSrc: '/images/interior-doors.jpg',
+      imageSrc: '/assets/images/doors1.webp',
       title: 'Interior Doors',
       description: 'Styles: Solid core, Hollow core, Solid wood. Types: Pre-hung, Slabs, Bi-folds, Louvered, French, Dutch.',
     },
     {
-      imageSrc: '/images/exterior-doors.jpg',
+      imageSrc: '/assets/images/doors2.webp',
       title: 'Exterior Doors',
       description: 'Styles: Fiberglass, Steel, Solid wood. Types: Pre-hungs, Slabs, Storm doors, Patio sliders, French doors, Entry doors (w/sidelites & transoms).',
     },
     {
-      imageSrc: '/images/custom-doors.jpg',
+      imageSrc: '/assets/images/doors1.webp',
       title: 'Custom Options',
       description: 'Various sizes available from small to large. Different styles and types to suit your needs. Primed and ready to paint.',
     },
