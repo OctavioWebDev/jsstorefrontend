@@ -26,17 +26,17 @@ const FlooringTile: React.FC<FlooringTileProps> = ({ imageSrc, title, descriptio
 const FlooringSection: React.FC = () => {
   const flooringOptions: FlooringTileProps[] = [
     {
-      imageSrc: '/images/hardwood-flooring.jpg',
+      imageSrc: '/assets/images/flooring1.webp',
       title: 'Hardwood Flooring',
       description: 'Choose from engineered, solid, and unfinished hardwood options for a classic, timeless look.',
     },
     {
-      imageSrc: '/images/vinyl-laminate-flooring.jpg',
+      imageSrc: '/assets/images/flooring1.webp',
       title: 'Vinyl & Laminate',
       description: 'Durable and affordable options including Cali Vinyl and COREtec for any room in your home.',
     },
     {
-      imageSrc: '/images/tile-accessories.jpg',
+      imageSrc: '/assets/images/flooring1.webp',
       title: 'Tile & Accessories',
       description: 'Explore our selection of tile flooring and various accessories to complete your flooring project.',
     },

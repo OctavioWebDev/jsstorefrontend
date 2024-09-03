@@ -27,17 +27,17 @@ const RoofingTile: React.FC<RoofingTileProps> = ({ imageSrc, title, description 
 const RoofingSection: React.FC = () => {
   const roofingOptions: RoofingTileProps[] = [
     {
-      imageSrc: '/images/osb-shingles.jpg',
+      imageSrc: '/assets/images/roofing1.jpg',
       title: 'OSB & Fiberglass Shingles',
       description: 'High-quality OSB and durable fiberglass shingles for reliable roofing solutions.',
     },
     {
-      imageSrc: '/images/metal-roofing.jpg',
+      imageSrc: '/assets/images/roofing2.jpg',
       title: 'Metal Roofing',
       description: 'Graber Post metal roofing materials for long-lasting and attractive roof installations.',
     },
     {
-      imageSrc: '/images/roofing-accessories.jpg',
+      imageSrc: '/assets/images/roofing1.jpg',
       title: 'Roofing Accessories',
       description: 'Torch down materials and various accessories to complete your roofing project.',
     },

@@ -26,17 +26,17 @@ const LumberTile: React.FC<LumberTileProps> = ({ imageSrc, title, description })
 const LumberSection: React.FC = () => {
   const lumberOptions: LumberTileProps[] = [
     {
-      imageSrc: '/images/lvl-beams.jpg',
+      imageSrc: '/assets/images/lumber1.webp',
       title: 'LVL Beams',
       description: 'Engineered Laminated Veneer Lumber for superior strength and stability.',
     },
     {
-      imageSrc: '/images/i-joists.jpg',
+      imageSrc: '/assets/images/lumber1.webp',
       title: 'I-Joists',
       description: 'Lightweight, strong, and perfect for floor and roof systems.',
     },
     {
-      imageSrc: '/images/specialty-lumber.jpg',
+      imageSrc: '/assets/images/lumber1.webp',
       title: 'Specialty Lumber',
       description: 'Custom and specialty lumber options for unique projects.',
     },

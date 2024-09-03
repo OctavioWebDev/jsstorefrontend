@@ -9,7 +9,7 @@ const WindowsSection: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center justify-center">
           <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8">
             <Image
-              src="/images/windows-showcase.jpg"
+              src="/assets/images/windows1.webp"
               alt="Windows Showcase"
               width={600}
               height={400}

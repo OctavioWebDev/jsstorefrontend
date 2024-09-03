@@ -26,17 +26,17 @@ const InsulationTile: React.FC<InsulationTileProps> = ({ imageSrc, title, descri
 const InsulationSection: React.FC = () => {
   const insulationOptions: InsulationTileProps[] = [
     {
-      imageSrc: '/images/polyiso-foam.jpg',
+      imageSrc: '/assets/images/insulation1.webp',
       title: 'Polyiso Foam Boards',
       description: 'High-performance insulation boards, available in 2" to 3" thickness. Ideal for barns and garages.',
     },
     {
-      imageSrc: '/images/eps-foam.jpg',
+      imageSrc: '/assets/images/insulation1.webp',
       title: 'EPS Foam Boards',
       description: 'Versatile and cost-effective insulation solution, perfect for various applications. Available in 2" to 3" thickness.',
     },
     {
-      imageSrc: '/images/fiberglass-rolls.jpg',
+      imageSrc: '/assets/images/insulation1.webp',
       title: 'Fiberglass Rolls',
       description: '6\' x 50\' fiberglass rolls, excellent for pole barns and attics. Easy to install and highly effective.',
     },

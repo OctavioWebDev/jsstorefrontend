@@ -26,17 +26,17 @@ const WallCeilingTile: React.FC<TileProps> = ({ imageSrc, title, description }) 
 const WallCeilingSection: React.FC = () => {
   const options: TileProps[] = [
     {
-      imageSrc: '/images/ceiling-tiles.jpg',
+      imageSrc: '/assets/images/ceiling1.webp',
       title: 'Ceiling Tiles',
       description: 'A wide variety of ceiling tiles to suit any room and style.',
     },
     {
-      imageSrc: '/images/pine-pattern-board.jpg',
+      imageSrc: '/assets/images/ceiling1.webp',
       title: 'Pine Pattern Board',
       description: 'Classic pine pattern boards for a warm, rustic look.',
     },
     {
-      imageSrc: '/images/shiplap.jpg',
+      imageSrc: '/assets/images/ceiling1.webp',
       title: 'Shiplap',
       description: 'Trendy shiplap options for a modern farmhouse feel.',
     },

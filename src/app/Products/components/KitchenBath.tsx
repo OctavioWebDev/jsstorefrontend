@@ -17,7 +17,7 @@ const KitchenBathSection: React.FC = () => {
                         >
                             <div className="relative h-96 w-full">
                                 <Image
-                                    src="/images/kitchen-bath-showcase.jpg"
+                                    src="/assets/images/K&b1.webp"
                                     alt="Kitchen and Bath Showcase"
                                     layout="fill"
                                     objectFit="cover"

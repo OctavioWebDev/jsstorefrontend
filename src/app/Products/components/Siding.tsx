@@ -26,17 +26,17 @@ const SidingTile: React.FC<SidingTileProps> = ({ imageSrc, title, description })
 const SidingSection: React.FC = () => {
   const sidingOptions: SidingTileProps[] = [
     {
-      imageSrc: '/images/engineered-wood-siding.jpg',
+      imageSrc: '/assets/images/siding1.webp',
       title: 'Engineered Wood Siding',
       description: 'Durable and attractive engineered wood siding options, perfect for various structures.',
     },
     {
-      imageSrc: '/images/metal-siding.jpg',
+      imageSrc: '/assets/images/siding2.webp',
       title: 'Metal Siding',
       description: 'Long-lasting metal siding solutions for barns, sheds, and houses.',
     },
     {
-      imageSrc: '/images/lp-smartside.jpg',
+      imageSrc: '/assets/images/siding1.webp',
       title: 'LP SmartSide',
       description: 'Various sizes of LP SmartSide in stock for your siding projects.',
     },
