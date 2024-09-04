@@ -1,8 +1,9 @@
 import React from 'react';
-
+import Banner from '@/components/Banner';
 export default function Terms() {
     return (
-        <div className="container mx-auto p-8">
+        <>
+        <div className="container text-white mx-auto p-8">
             <h1 className="text-3xl font-bold mb-4 text-center">Our Terms</h1>
             <div className="shadow-2xl bg-red-950 rounded-lg p-6">
                 <p className="mb-4 font-bold">ALL ITEMS ARE SOLD AS IS:</p>
@@ -44,5 +45,8 @@ export default function Terms() {
                 </p>
             </div>
         </div>
+        <Banner />
+        </>
+        
     );
 }

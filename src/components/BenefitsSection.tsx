@@ -13,10 +13,10 @@ const BenefitTile: React.FC<BenefitProps> = ({ icon, title, description }) => (
   <div className="flex flex-col h-96 items-center  p-4 mb-8 md:mb-0">
     <FontAwesomeIcon 
       icon={icon} 
-      className="text-cyan-900 text-6xl mt-8 mb-16" 
+      className="text-cyan-950 text-6xl mt-8 mb-16" 
     />
-    <h3 className="text-xl font-semibold mb-2 text-white">{title}</h3>
-    <p className="text-center text-white">{description}</p>
+    <h3 className="tracking-tighter text-xl text-center font-semibold mb-2 text-white">{title}</h3>
+    <p className="tracking-tighter text-center text-white">{description}</p>
   </div>
 );
 

@@ -1,10 +1,12 @@
 'use client';
 
 import React from 'react';
+import Banner from '@/components/Banner';
 
 export default function OurStory() {
     return (
-        <div className="container mx-auto p-8">
+        <>
+        <div className="container text-white mx-auto p-8">
             <h1 className="text-3xl font-bold mb-4 text-center">Our Story</h1>
             <div className="shadow-2xl bg-red-950 rounded-lg p-6">
                 <p className="mb-4">
@@ -34,10 +36,9 @@ export default function OurStory() {
                     <li>To grow the company so that Jacobs Supply might be used more for the advancement of God’s kingdom.</li>
                     <li>And most importantly, to glorify our Lord and God, Jesus Christ, in everything we do.</li>
                 </ul>
-                <p className="text-center text-xl font-bold">
-                    30-50% OFF THE BIG BOX STORES PRICING
-                </p>
             </div>
         </div>
+        <Banner/>
+        </>
     );
 }

@@ -15,8 +15,8 @@ const FeaturesTile: React.FC<FeaturesProps> = ({ icon, title, description }) => 
       icon={icon} 
       className="text-cyan-900 text-6xl mt-8 mb-16" 
     />
-    <h3 className="text-xl font-semibold mb-2 text-white">{title}</h3>
-    <p className="text-center text-white">{description}</p>
+    <h3 className="tracking-tighter text-xl text-center font-semibold mb-2 text-white">{title}</h3>
+    <p className="tracking-tighter text-center text-white">{description}</p>
   </div>
 );
 

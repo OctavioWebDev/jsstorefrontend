@@ -7,6 +7,7 @@ import Testimonials from '../components/Testimonials';
 import BenefitsSection from '@/components/BenefitsSection';
 import FeaturesSection from '@/components/FeaturesSectionSection';
 import TheWordOfGod from '@/components/TheWordOfGod';
+import Banner from '@/components/Banner';
 
 export const runtime = 'edge';
 
@@ -17,6 +18,7 @@ export default function Home() {
       <MainSection />
       <TheWordOfGod />
       <BenefitsSection />
+      <Banner />
       <FeaturesSection />
       <Testimonials />
     </div>

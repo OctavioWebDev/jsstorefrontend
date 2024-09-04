@@ -55,7 +55,7 @@ export default function Header() {
                                 onMouseEnter={handleMouseEnter}
                                 onMouseLeave={handleMouseLeave}
                             >
-                                <Link href="/about/meet-the-crew" className="block px-4 py-2 hover:bg-gray-100">
+                                <Link href="/MeetTheCrew" className="block px-4 py-2 hover:bg-gray-100">
                                     Meet the Crew
                                 </Link>
                                 <Link href="/OurTerms" className="block px-4 py-2 hover:bg-gray-100">
@@ -67,7 +67,7 @@ export default function Header() {
                             </div>
                         )}
                     </div>
-                    <Link href="/gallery" className="hover:text-gray-400">
+                    <Link href="/Gallery" className="hover:text-gray-400">
                         Gallery
                     </Link>
                     <Search />
